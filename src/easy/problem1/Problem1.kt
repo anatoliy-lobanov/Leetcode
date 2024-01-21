@@ -1,5 +1,8 @@
-package easy
+package easy.problem1
 
+/**
+ * 1. Two Sum
+ */
 fun main() {
     val solution = Solution()
 
@@ -8,21 +11,21 @@ fun main() {
         nums = intArrayOf(2, 7, 11, 15),
         target = 9
     )
-    println("Test1 result = [${test1[0]}, ${test1[1]}]")
+    println("Test1 = [${test1[0]}, ${test1[1]}]")
 
     // test2
     val test2 = solution.twoSum(
         nums = intArrayOf(3, 2, 4),
         target = 6
     )
-    println("Test2 result = [${test2[0]}, ${test2[1]}]")
+    println("Test2 = [${test2[0]}, ${test2[1]}]")
 
-    // test2
+    // test3
     val test3 = solution.twoSum(
         nums = intArrayOf(3, 3),
         target = 6
     )
-    println("Test3 result = [${test3[0]}, ${test3[1]}]")
+    println("Test3 = [${test3[0]}, ${test3[1]}]")
 }
 
 private class Solution {
